@@ -1,6 +1,21 @@
-sc config trustedinstaller start=auto
 net stop wuauserv
+net stop cryptSvc
 net stop bits
-cd %windir%
-ren SoftwareDistribution SoftwareDistribution.old
-dism /online /cleanup-image /restorehealth 
+net stop msiserver
+net stop trustedinstaller
+
+ren C:\Windows\SoftwareDistribution SoftwareDistribution.old
+ren C:\Windows\System32\catroot2 Catroot2.old
+
+net start wuauserv
+net start cryptSvc
+net start bits
+net start msiserver
+net start trustedinstaller
+
+dism /online /cleanup-image /restorehealth
+
+echo "Reinicie o Windows e tente executar a instalacao novamente"
+echo.
+
+pause
