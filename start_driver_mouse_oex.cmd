@@ -1,1 +1,0 @@
-start "C:\Program Files (x86)\COMBO GEAR TM.301 GAMING MOUSE" "C:\Program Files (x86)\COMBO GEAR TM.301 GAMING MOUSE\OEX Gaming Mouse.exe"
