@@ -7,8 +7,7 @@ net session >nul 2>&1 || (
 )
 
 @echo on
-pushd "%~dp0..\reg"
-regedit /s "disable_policies_system_wallpaper.reg"
-popd
+
+reg delete HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System /f
 
 rem pause
