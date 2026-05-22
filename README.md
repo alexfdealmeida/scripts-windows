@@ -1,4 +1,4 @@
-# Scripts Windows 
+# scripts-windows 
 Este repositório armazena scripts que permitem modificar configurações e comportamentos no Windows.
 
 ## Como obter uma cópia
