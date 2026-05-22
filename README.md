@@ -1,17 +1,16 @@
 # Scripts Windows 
-Repositório destinado a scripts que são utilizados no Windows.
+Este repositório armazena scripts que permitem modificar configurações e comportamentos no Windows.
 
-# Procedimentos iniciais
-Para obter uma cópia local, devidamente instalada e configurada, siga as instruções a seguir:
+## Como obter uma cópia
 
-## Clonagem
+Caso deseje obter uma cópia local:
 
-1. Clonar repositório:
-	```sh
-	git clone https://github.com/alexfdealmeida/scripts-windows.git
-	```
+  ```sh
+  git clone https://github.com/alexfdealmeida/scripts-windows.git
+  ```
+  
+## Autor
+Alex Almeida
 
-2. Executar o script 'getting-started.sh' localizado no diretório raiz.
-	```sh
-	./getting-started.sh
-	```
+## Licença
+[MIT License](LICENSE)
